@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>dashboard</title>
+</head>
+<body>
+  <h2>Welcome, {{ user }}!</h2>
+  <p>This is a protected page only visible after logging in.</p>
+  <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
